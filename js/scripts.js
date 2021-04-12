@@ -104,7 +104,7 @@ Total: R$ ${pedido.calcularTotal()}\n
 Nome: ${pedido.nome}
 Endereço: ${pedido.endereco}`
         mensagem = encodeURIComponent(mensagem)
-        const whatsNum = "NTUyMTk4NTUyMDc2NA=="
+        const whatsNum = "1NTUyMTk4NTUyMDc2NA=="
         let whatsUrl = "https://wa.me/" + atob(whatsNum) + "?text=" + mensagem;
         window.open(whatsUrl, '_blank');
     } else {
